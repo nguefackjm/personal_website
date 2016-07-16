@@ -1,207 +1,142 @@
 <!DOCTYPE html>
 <head>
+  <!-- setting title of page -->
+  <title>Jeff Mbeleke- Gallery</title>
 
-      <!-- importing fonts from google -->
-      <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  <!-- importing fonts from google -->
+  <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-      <!-- setting title of page -->
-      <title>Jeff Mbeleke- Gallery</title>
+  <!-- importing CSS style -->
+  <link href="/normalize.css" rel="stylesheet">
 
-      <!-- importing CSS style -->
-      <link href="/normalize.css" rel="stylesheet">
+  <!-- importing general page styling -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
 
-      <!-- styling the page -->
-      <style>
+  <!-- special page styling-->
+  <style>
 
-              header { 
-              text-align: center;
-              background: #111111;
-              background-size: cover;
-              font-family: 'Merriweather', serif;
-              }
+    .gallery{
+    text-decoration: underline overline;
+    color: #FF4136;
+    }
 
-              .home{
-                text-decoration: none;
-                color:#FFFFFF;
-              }
+    article { 
+      text-align: justify;
+      align-items: center;
+      max-width: 900px;
+      padding: 20px;
+      margin: 0 auto;
+    }
 
-              .home:hover {
-                color: #FF851B;
-                text-decoration: underline overline;
-              }
+    .psmall{
+      font-size: 11px;
+    }
+    .topics{
+      text-decoration: none;
+      color:#111111;
+    }
 
-              .tutorials{
-                text-decoration: none;
-                color:#FFFFFF;
-              }
+    .topics:hover {
+      color: #0074D9;
+      text-decoration: underline;
+    } 
 
-              .tutorials:hover {
-                color: #FF851B;
-                text-decoration: underline overline;
-              }
+    @media (max-width: 900px) {
 
-              .challenges{
-                text-decoration: none;
-                color:#FFFFFF;
-              }
+      header {
+        text-align: center;
+        background: #456;
+        background-size: cover;
+        color: #FFFFFF;
+      }
 
-              .challenges:hover {
-                color: #FF851B;
-                text-decoration: underline overline;
-              }
-
-              .gallery{
-                text-decoration: underline overline;
-                color: #FF4136;
-              }
-
-              .links{
-                text-decoration: none;
-                color:#FFFFFF;
-              }
-
-              .links:hover {
-                color: #FF851B;
-                text-decoration: underline overline;
-              }
-
-              .me{
-                text-decoration: none;
-                color:#FFFFFF;
-              }
-
-              .me:hover {
-                color: #FF851B;
-                text-decoration: underline overline;
-              }
-
-              h1 {
-                font-size: 70px;
-                font-family: 'Merriweather', serif;
-              }
-
-              ul {
-                padding: 10px;
-                background: rgba(0,0,0,0.5);
-              }
-
-              li {
-                display: inline;
-                padding: 0px 10px 0px 10px;
-              }
-
-      
-              article { 
-                text-align: justify;
-                align-items: center;
-                max-width: 900px;
-                padding: 20px;
-                margin: 0 auto;
-              }
-
-              @media (max-width: 900px) {
-                    header {
-                    text-align: center;
-                    background: #456;
-                    background-size: cover;
-                    color: #FFFFFF;
-                    }
-                    h1 {
-                      font-size: 20px;
-                      padding: 1px;
-                    }
-                    h2 {
-                    font-size: 15px;
-                    padding: 1px;
-                    }
+      h1 {
+        font-size: 20px;
+        padding: 1px;
+      }
+      h2 {
+        font-size: 15px;
+        padding: 1px;
+      }
           
-                    p{
-                       font-size: 10px;
-                    }
-                    li {
-                      padding: 5px;
-                      display: block;
-                    }
-                    .home{
-                    text-decoration: underline overline;
-                    color:#FF4136;
-                    font-size: 15px;
-                    }
+      p{
+        font-size: 10px;
+      }
+        
+      li {
+        padding: 5px;
+        display: block;
+      }
+      
+      .home{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-size: 15px;
+      }
 
-                    .tutorials{
-                      text-decoration: none;
-                      color:#FFFFFF;
-                      font-size: 15px;
-                    }
+      .home:hover {
+        color: #FF851B;
+        text-decoration: underline overline;
+        font-size: 15px;
+      }
 
-                    .tutorials:hover {
-                      color: #FF851B;
-                      text-decoration: underline overline;
-                      font-size: 15px;
-                    }
+      .tutorials{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-size: 15px;
+      }
 
-                    .challenges{
-                      text-decoration: none;
-                      color:#FFFFFF;
-                      font-size: 15px;
-                    }
+      .tutorials:hover {
+        color: #FF851B;
+        text-decoration: underline overline;
+        font-size: 15px;
+      }
 
-                    .challenges:hover {
-                      color: #FF851B;
-                      text-decoration: underline overline;
-                      font-size: 15px;
-                    }
+      .challenges{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-size: 15px;
+      }
 
-                    .gallery{
-                      text-decoration: none;
-                      color:#FFFFFF;
-                      font-size: 15px;
-                    }
+      .challenges:hover {
+        color: #FF851B;
+        text-decoration: underline overline;
+        font-size: 15px;
+      }
 
-                    .gallery:hover {
-                      color: #FF851B;
-                      text-decoration: underline overline;
-                      font-size: 15px;
-                    }
+      .gallery{
+        text-decoration: underline overline;
+        color:#FF4136;
+        font-size: 15px;
+      }
 
-                    .links{
-                      text-decoration: none;
-                      color:#FFFFFF;
-                      font-size: 15px;
-                    }
+      .links{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-size: 15px;
+      }
 
-                    .links:hover {
-                      color: #FF851B;
-                      text-decoration: underline overline;
-                      font-size: 15px;
-                    }
+      .links:hover {
+        color: #FF851B;
+        text-decoration: underline overline;
+        font-size: 15px;
+      }
 
-                    .me{
-                      text-decoration: none;
-                      color:#FFFFFF;
-                      font-size: 15px;
-                    }
+      .me{
+        text-decoration: none;
+        color:#FFFFFF;
+        font-size: 15px;
+      }
 
-                    .me:hover {
-                      color: #FF851B;
-                      text-decoration: underline overline;
-                      font-size: 15px;
-                    }
-              }  
-              .psmall{
-                  font-size: 11px;
-                }
-                .topics{
-                text-decoration: none;
-                color:#111111;
-              }
-
-              .topics:hover {
-                color: #0074D9;
-                text-decoration: underline;
-              } 
-      </style>
-      </head>
+      .me:hover {
+        color: #FF851B;
+        text-decoration: underline overline;
+        font-size: 15px;
+      }
+    }
+      
+  </style>
+</head>
 
 <body>
   <header>
