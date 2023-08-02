@@ -52,12 +52,12 @@ article {
 	text-decoration: underline overline;
 }
 
-.challenges{
+.story{
 	text-decoration: none;
 	color:#FFFFFF;
 }
 
-.challenges:hover {
+.story:hover {
 	color: #FF851B;
 	text-decoration: underline overline;
 }
@@ -80,15 +80,6 @@ article {
 .links:hover {
 	color: #FF851B;
 	text-decoration: underline overline;
-}
-.me{
-	text-decoration: none;
-	color:#FFFFFF;
-}
-
-.me:hover{
-	text-decoration: underline overline;
-	color:#FF851B;
 }
 
 .topics{
@@ -158,13 +149,13 @@ article {
 	  	font-size: 15px;
 	}
 
-	.challenges{
+	.story{
 	  	text-decoration: none;
 	  	color:#FFFFFF;
 	  	font-size: 15px;
 	}
 
-	.challenges:hover {
+	.story:hover {
 	  	color: #FF851B;
 	  	text-decoration: underline overline;
 	  	font-size: 15px;
@@ -190,18 +181,6 @@ article {
 
 	.links:hover {
 	  	color: #FF851B;
-	  	text-decoration: underline overline;
-	  	font-size: 15px;
-	}
-
-	.me{
-	  	text-decoration: none;
-	  	color:#FFFFFF;
-	  	font-size: 15px;
-	}
-
-	.me:hover {
-		color: #FF851B;
 	  	text-decoration: underline overline;
 	  	font-size: 15px;
 	}
